@@ -32,7 +32,7 @@ body {
     margin-left: 0.5em;
     background-color: #ecf0f1;
     color: #2c3e50;
-    padding: 0.5em 1em;
+    padding: 0.5em;
     text-decoration: none;
     border: 1px solid #2c3e50;
     transition: background 0.3s;
@@ -96,6 +96,7 @@ body {
     grid-template-areas: repeat(2, 1fr);
     gap: 1em;
     margin-top: 1em;
+    image-rendering: center;
   }
 
 
@@ -141,4 +142,13 @@ body {
     text-align: left;
     gap: 2em;
   }
+
+.social {
+    display: small;
+    width: 15%;
+    margin: 1em 0;
+    gap: 1em;
+  }
+  
+ 
   
