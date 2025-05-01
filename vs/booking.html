@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html.>
+
+  <meta charset="UTF-8">
+ 
+  <title>Il Barbiere - Booking</title>
+  <link rel="stylesheet" href="style.css">
+
+<body>
+  <header>
+    <div class="logo-container">
+        <img src="barberslogo.png" alt="Il Barbiere Logo" class="logo">
+    <h1>Il Barbiere</h1>
+    <nav class="navbar">
+      <a href="template.html">Home</a>
+      <a href="booking.html">Prices and Booking</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="#">About Us</a>
+      <a href="#">FAQ</a>
+      <div class="nav-buttons">
+        <a href="#" class="btn">Sign Up</a>
+        <a href="#" class="btn">Log In</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="booking-section">
+      <h2>Book Your Appointment</h2>
+      <form class="booking-form">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="service">Select Service:</label>
+        <select id="service" name="service">
+          <option value="cut">Haircut</option>
+          <option value="colour">Colour</option>
+          <option value="trim">Beard Trim</option>
+        </select>
+
+        <label for="date">Choose a Date:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Choose a Time:</label>
+        <input type="time" id="time" name="time" required>
+
+        <button type="submit">Confirm Booking</button>
+      </form>
+    </section>
+
+    <section class="price-list">
+      <h2>Our Prices</h2>
+      <ul>
+        <li><strong>Haircut:</strong> £15.00</li>
+        <li><strong>Shave:</strong> £10.00</li>
+        <li><strong>Beard Trim:</strong> £5.00</li>
+        <li><strong>Student Discount:</strong> 20% Off</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div>
+        <h3>Find Us</h3>
+        <p>123 Pleasant View lane <br> Cambridge ville  <br>Cambridge <br>CB1 5SH </p>
+      </div>
+      <div>
+        <h3>Contact us</h3>
+        <p>Phone: 0771223 44401, <br>Email: ilbarb@Cambridge.com</p>
+      </div>
+      <div>
+        <h3>Follow Us</h3>
+        <p><socials class="jnp"><img src="socialss.png" alt="socialss"></p>
+      </div>
+    </div>
+    <p>&copy; 2025 Il Barbiere. All rights reserved.</p>
+  </footer>
+</body>
+</html>
